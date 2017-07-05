@@ -52,7 +52,6 @@ var InlineCss = createReactClass({
 			wrapperProps,
 			this.props.children,
 			React.createElement("style", {
-				scoped:                  true,
 				dangerouslySetInnerHTML: {__html: stylesheet}
 			})
 		);
